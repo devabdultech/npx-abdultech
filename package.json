@@ -1,5 +1,6 @@
 {
   "name": "npx-abdultech",
+  "type": "module",
   "version": "1.0.0",
   "description": "A personalized npm package to introduce yourself with style",
   "main": "src/index.ts",
@@ -36,6 +37,7 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
+    "@types/inquirer": "^9.0.7",
     "boxen": "^7.1.1",
     "chalk": "^5.3.0",
     "clear": "^0.1.0",
