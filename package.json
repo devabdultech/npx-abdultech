@@ -1,0 +1,32 @@
+{
+  "name": "npx-abdultech",
+  "version": "1.0.0",
+  "description": "A personalized npm package to introduce yourself with style",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "abdultech",
+    "introduction",
+    "cli",
+    "typescript"
+  ],
+  "author": "AbdulTech",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.3",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "inquirer": "^9.2.12",
+    "open": "^9.1.0"
+  }
+}
