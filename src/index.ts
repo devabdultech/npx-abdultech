@@ -2,8 +2,8 @@
 
 import inquirer from "inquirer";
 import { clear } from "console";
-import { me, questions } from "./lib/content";
-import { calculateAge } from "./lib/utils";
+import { me, questions } from "./lib/content.js";
+import { calculateAge } from "./lib/utils.js";
 
 const name: string = "Abdulhameed";
 const age = calculateAge("2005-12-09");
